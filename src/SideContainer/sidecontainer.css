@@ -1,0 +1,82 @@
+.side-container {
+    width: 300px;
+    min-height: 100%;
+    color: azure;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background-color: rgb(221, 204, 13);
+    transition: left 1s ease-in-out;
+    z-index: 1000;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 100px;
+}
+
+.name {
+    height: 60px;
+    margin-left: -90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.name h5 {
+    margin-top: -20px;
+}
+
+.settings {
+    font-size: 20px;
+    margin-right: -40px;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 14px;
+}
+
+.icon-container {
+    font-size: 24px;
+    margin-left: 5%;
+}
+
+.item-name {
+    margin-left: 6%;
+    font-size: 20px;
+}
+
+.item-container:hover {
+    background-color: rgb(124, 98, 138);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+.name h3 {
+    color: azure;
+}
